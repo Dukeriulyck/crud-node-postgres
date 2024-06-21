@@ -1,0 +1,22 @@
+{
+  "name": "crud-node-postgres",
+  "version": "1.0.0",
+  "description": "Crud utilizando Node e como banco de dados o PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "postgresql",
+    "pg",
+    "express"
+  ],
+  "author": "Paulo Matheus",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.3",
+    "pg": "^8.12.0"
+  }
+}

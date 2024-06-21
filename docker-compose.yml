@@ -1,0 +1,12 @@
+version: '3'
+services:
+  db:
+    build: .
+    container_name: crud_node_postgres
+    restart: always
+    environment:
+      POSTGRES_DB: crud_node
+    volumes:
+      - ./src/config/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - 5432:5432
