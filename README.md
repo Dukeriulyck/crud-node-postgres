@@ -74,6 +74,7 @@ GET /products
 ## Instruções
 Para rodar o projeto na sua máquina execute os seguintes passos: 
 - Verifique se você tem instalado Docker e Node/Nodemon. 
+- Verifique também se não existe nenhum processo na sua máquina utilizando a porta 5432 (padrão do PostgreSQL).
 - Baixe ou clone este repositório na sua máquina.
 - Na raíz do repositório execute:
 ```
